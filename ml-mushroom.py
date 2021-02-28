@@ -17,7 +17,7 @@ from keras.layers import Dense
 # در ابتدا با استفاده از دیتافریم دیتا ست خود را فراخوانی میکنیم
 # سپس ستون های دیتاست را نمایش میدهیم و آن هارا ری نیم میکنیم
 
-train=pd.DataFrame(pd.read_csv('/content/mushrooms.csv'))
+train=pd.DataFrame(pd.read_csv('https://github.com/mehdiahd23/ML/blob/main/mushrooms.csv'))
 train.columns
 
 train.columns=['class', 'cap_shape', 'cap_surface', 'cap_color', 'bruises', 'odor',
